@@ -1,0 +1,80 @@
+/* BASIC SETUP */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+section {
+	margin-top: 80px;
+}
+
+.jumbotron {
+  color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  border-radius: 0 !important;
+}
+
+.hero-text {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.patetika p {
+	margin-top: 30px;
+}
+
+.nastavak-patetike img {
+	filter: brightness(50%);
+}
+
+footer {
+	background-color: #eee;
+	height: 50px;
+}
+
+footer p {
+	text-decoration: none;
+	padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 480px) {
+	.hero-text h1 {
+		font-size: 2em;
+	}
+
+	.patetika h2 {
+		font-size: 1.5em;
+	}
+
+	.patetika p {
+		text-align: justify;
+	}
+
+}
+
+
+.nastavak-patetike img {
+	animation-duration: 2.64s, 15.22s;
+	animation-duration: 20s, 55s, 530ms;
+}
+
+.close {
+	display: none;
+}
+
+.modal-patetika {
+	margin-bottom: 20px;
+}
